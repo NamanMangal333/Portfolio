@@ -1,0 +1,128 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+ .navbar{
+    display: flex;
+    height: 100px;
+    width:100%;
+    background-color: #9d6b53;
+} 
+.navbar ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-left: 50%;
+    color: white;
+    
+}
+.navbar ul li{
+    list-style: none;
+    margin: 0 23px;
+    
+}
+.navbar ul li a{
+    color: white;
+    text-decoration: none;
+}
+.navbar ul li a:hover{
+    color: #22333b;
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+.heading{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 2%;
+    text-align: center;
+    color: white;
+
+}
+body{
+    background-color: #b3b3ed;
+}
+#element{
+    color: #6f1d1b;
+}
+.container
+{
+    display: flex;
+    justify-content: space-evenly;
+}
+.intro{
+    color: #432818;
+    margin-top: 19%;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande';
+    width:28%;
+    font-size: 2rem;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+#name{
+    color: #6f1d1b;
+}
+.image{
+    height: 400px;
+    width:400px;
+    background-position: center;
+    background-size: cover;
+    margin-top: 12%;
+    margin-bottom: 5%; 
+}
+.container2{
+        display: flex;
+        justify-content: space-evenly;
+}
+#image2{
+    margin-top:5%;
+    margin-left: 10% ;  
+    height: 400px;
+    width:400px;
+    background-position: center;
+    background-size:cover;
+
+}
+.right{
+    margin-top:5%;
+    margin-left: 12%;
+    background-color:  #9d6b53;
+    padding-left: 2%;
+    width: 520px;
+    border-radius: 2%;
+}
+.right:hover{
+    border: 2px solid black;
+    width:600px;
+}
+.skills{
+    padding-top: 2%;
+    font-size: 2rem;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-style: oblique;
+}
+#skill{
+    text-decoration: underline;
+}
+.certifications{
+    margin-top:2%;
+    font-size: 2rem;
+    font-family: Georgia, 'Times New Roman', Times, serif ;
+    font-style: oblique;
+}
+footer{
+    margin-top: 5%;
+    background-color: #9d6b53;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+footer a{
+    color: white;
+    margin-left:4%;
+}
